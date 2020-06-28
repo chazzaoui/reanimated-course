@@ -1,1 +1,1 @@
-export { default } from "./CircularSlider";
+export { default } from "./boilerplate/CircularSlider";

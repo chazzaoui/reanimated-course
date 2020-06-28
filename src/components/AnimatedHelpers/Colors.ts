@@ -44,7 +44,7 @@ const color = (r, g, b, opacity = 1) => {
   return result;
 };
 
-export const hsv2rgb = (h, s, v) => {
+export const hsv2rgb = (h: number, s: any, v: number) => {
   "worklet";
   // vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
   const K = {
